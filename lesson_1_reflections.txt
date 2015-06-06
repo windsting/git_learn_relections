@@ -1,0 +1,75 @@
+
+Question: How did viewing a diff between two versions of a file help you see 
+the bug that was introduced?
+Answer: For most cases, the development procedure is an iteration, every circle 
+involve these steps: design-a-feature -> coding -> test -> fix-bugs -> 
+save-the-job, maybe no need for the "fix-bugs" step(that must be very lucky), 
+but the "save" step is always needed, so at the begining of every iteration, 
+the project should be in a "good status", if there is something wrong during
+a circle, it's obvious the bug is not in the "untouched codes", so check all 
+changed made between the "good status" and "bug status" is a good idea.
+
+
+Question: How could having easy access to the entire history of a file make you 
+a more efficient programmer in the long term?
+Answer: 
+1, Sometimes bugs not just popup immediately, this is caused by careless testing
+ or the missing of testing, so they stay still, just give me a surprise at the 
+ worst moment, in this scenario, the last "good status" contains the bug already
+, so to find it, either check those "good status" one by one, or just guess from
+ the module that had been changed in every circle, both of them need to access 
+the entire history of the file.
+2, The progress of development not always a straight arrow, but contains some experiment feature, maybe two or more solutions for one problem, and switch 
+between them, with the access of entire history, it'll be easy to group every 
+solution as a change, and save a lot of time for the code replacement.
+
+
+Question: What do you think are the pros and cons of manually choosing when to 
+create a commit, like you do in Git vs having versions automatically saved, like
+ Google docs does?
+Answer: manually chossing is always flexiable, but sometimes I forgot to make a 
+commit at a good moment, then I got a commit with two or more logic changes, 
+and have to describe them in one line, because normally I can't see those lines 
+after the first one,
+	Google docs, on the other hand, save periodly automatically, so I can get 
+many "versions", but they are not my logic changes, may be good for a text 
+editing job, but for the job of coding, not useful too much.
+
+
+Question: Whatdo you think some version control systems, like Git, allow saving 
+multiple files in one commit, while others, like Google Docs, treat each file 
+separately?
+Answer: A commit with multiple files, is always needed in my works, most of 
+programs contains not only on source code file, and most logical changs involved
+ more than one file, so pack one logical change in one unit is useful;
+ 		And for the Google Docs, as I said in previous question, maybe good for 
+text editing job, but for coding, not useful too much too, for the "mutiple 
+files commit" feature.
+
+
+Question: How can you use the commands git log and git diff to view the history 
+of files?
+Andwer: first use git log, to find those commits I'm looking for, with the 
+describe line, then use git diff to compare this version and the earlier one of 
+it.
+
+
+Question: How might using version control make you more confident to make 
+changes that could break something?
+Answer: Because of those commits, always stored a status that I can checkout 
+anytime I want to, so I can always restore to the "good status", while I break 
+something.
+
+
+Question: Now that you have your workspace setup, what do you want to try using 
+Git for?
+Answer: Maybe try it on some repository I've cloned from github, but first, 
+I want to finish the course.
+
+
+
+
+
+
+
+
