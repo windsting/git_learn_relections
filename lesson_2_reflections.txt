@@ -1,0 +1,29 @@
+
+Question: What happens when you initialize a repository? Why do you need to do 
+it?
+Answer: A new directory called .git generated in the repository directory, the 
+reason to initialize a repository, is I need to let the git do some job to 
+track on this directory.
+
+
+Question: How is the staging area different from the working directory and the 
+repostory? What value do you thing it offers?
+Answer: Like repository, staging area is a abstract concept, at least not 
+realistic like the working directory, it's a pre-commit area, and can split 
+the changes in working directory into some little unit, instead of a whole 
+large change unit.
+		The staging area, give me a chance to commit those I forgot to do after 
+a logic change have made, so I can commit that logic while the next feature is 
+in progress.
+
+
+
+
+
+
+
+
+
+
+
+
