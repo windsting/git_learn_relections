@@ -37,8 +37,20 @@ Answer: I had some experience of using Microsoft VSS, Subversion, both of them
  who need to modify that file, can only wait for a "unlock" operation.
 
 
+Question: When would you want to make changes in a separate branch rather than
+ directly master? What benefits does each approach have?
+Answer: I think two conditions will cause me to make a branch.
+		First, I need a stable version, and only make bug-fix on that, and on
+		the other hand, still have some new features to create, then the stable
+		version become a seperate branch till I want to release those new
+		features.
+		Second, when I have some experimental ideas, but I don't want to add
+		it in to project immediately, the experimental idea will cause a
+		separate branch, till it's proved to be a useful feature.
 
-
+		Develop on master branch, makes the operation on repository easy,
+		but the master will always contains some bugs introduced along development,
+		not so stable.
 
 
 
