@@ -12,6 +12,16 @@ Answer: Because of the changes in remote repository may contain conflict to my
  the control of "When to resolve those conflict.".
 
 
-
+Question: Describe the differences between forks, clones, and branches. When 
+would you use one instead of another?
+Answer: The branch operate on the local repository and and only effect that 
+one, and clone operate on one repository -- both local or remote, and create 
+one local copy of it, fork operate on a GitHub repository, and create one copy
+ on the GitHub.
+ 		If I want got a GitHub repository clone, and store the result on the 
+ GitHub, I can use fork instead of clone, save some time, and indicate my 
+ repository is a copy of the former one.
 
  
+
+
