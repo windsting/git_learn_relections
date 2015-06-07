@@ -23,5 +23,21 @@ one local copy of it, fork operate on a GitHub repository, and create one copy
  repository is a copy of the former one.
 
  
+Question: What is the benefit of having a copy of the last known state of the 
+remote stored locally?
+Answer: It makes me can work offline.
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
