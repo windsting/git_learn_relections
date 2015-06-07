@@ -28,6 +28,17 @@ remote stored locally?
 Answer: It makes me can work offline.
 
 
+Question: How would you collaborate without using Git or GitHub? What would be
+ easier, and what would be harder?
+Answer: I had some experience of using Microsoft VSS, Subversion, both of them
+ can not let me work offline -- without the central server, so the location for
+ working is not flexible, and there were many "lock" opreation, a situation
+ that only the person who "locked" one file can modify it, the rest of teammate
+ who need to modify that file, can only wait for a "unlock" operation.
+
+
+
+
 
 
 
