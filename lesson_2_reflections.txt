@@ -17,6 +17,54 @@ a logic change have made, so I can commit that logic while the next feature is
 in progress.
 
 
+Question: How can you use the staging area to make sure you have one commit 
+per logical change?
+Answer: For most cases, I will make a commit for a logical change, but if I 
+forget to make such a commit, I can pick up all files within the formor 
+logical change, and add them to staging area, then make the commit, thus, I can 
+make sure every commit only involve one logical change.
+
+
+Question: What are some situations when branches would be helpful in keeping 
+your history organized? How would branches help?
+Answer: For situations that I need some thing to be apply but don't want to 
+effect on the master version, the branches would be helpful in keeping my 
+history organized. And the branches can isolate those changes from the master 
+branch, so, for the master, it just like all those branches things never 
+happened.
+
+
+Question: How do the diagrams help you visualize the branch structure?
+Answer: It makes it clear, that all branches come from which commit, and 
+all features and bug-fixes' position in the version tree.
+
+
+Question: What is the result of merging two branches together? Why do we 
+represent it in the diagram the way we do?
+Answer: The result of merging two branches is a commit has two parent -- the 
+most recent commit of both branches.
+		The diagram of a merge can make the relationship of those merged 
+branches clearly, that's why.
+
+
+Question: What are the pros and cons of Git's automatic merging vs. always 
+doing merges manually?
+Answer: Git's automatic merging make life easier, but it can't resolve the 
+conflict cause by human, and always doing merges manually? I don't do that 
+it's too hard and a easy way to introduce error into code, so I just doing 
+merges manually when the Git report conflict. That will be the good way.
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
